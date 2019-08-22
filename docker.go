@@ -16,7 +16,7 @@ type manifestJSON struct {
 	Layers []string
 }
 
-// saveDockerImage saves Docker image to temorary folder
+// saveDockerImage saves Docker image to temporary folder
 func saveDockerImage(imageName string, tmpPath string) {
 	docker := createDockerClient()
 
